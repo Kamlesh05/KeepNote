@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAC,CAAC;EACR,OAAO,EAAC,CAAC;EACT,UAAU,EAAE,UAAU;EACtB,WAAW,EAAE,qBAAqB;CACrC;;AAED,AAAA,IAAI,CAAA;EACA,SAAS,EAAC,KACd;CAAC",
+    "sources": [
+        "Inex.scss"
+    ],
+    "names": [],
+    "file": "Inex.css"
+}
