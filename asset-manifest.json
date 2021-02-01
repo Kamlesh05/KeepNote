@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Kamlesh05/KeepNote/static/css/main.377cfef7.chunk.css",
+    "main.js": "/Kamlesh05/KeepNote/static/js/main.832d32a3.chunk.js",
+    "main.js.map": "/Kamlesh05/KeepNote/static/js/main.832d32a3.chunk.js.map",
+    "runtime-main.js": "/Kamlesh05/KeepNote/static/js/runtime-main.4576250e.js",
+    "runtime-main.js.map": "/Kamlesh05/KeepNote/static/js/runtime-main.4576250e.js.map",
+    "static/css/2.d65fdcc0.chunk.css": "/Kamlesh05/KeepNote/static/css/2.d65fdcc0.chunk.css",
+    "static/js/2.be5d2f5d.chunk.js": "/Kamlesh05/KeepNote/static/js/2.be5d2f5d.chunk.js",
+    "static/js/2.be5d2f5d.chunk.js.map": "/Kamlesh05/KeepNote/static/js/2.be5d2f5d.chunk.js.map",
+    "static/js/3.7aa6ea3b.chunk.js": "/Kamlesh05/KeepNote/static/js/3.7aa6ea3b.chunk.js",
+    "static/js/3.7aa6ea3b.chunk.js.map": "/Kamlesh05/KeepNote/static/js/3.7aa6ea3b.chunk.js.map",
+    "index.html": "/Kamlesh05/KeepNote/index.html",
+    "static/css/2.d65fdcc0.chunk.css.map": "/Kamlesh05/KeepNote/static/css/2.d65fdcc0.chunk.css.map",
+    "static/css/main.377cfef7.chunk.css.map": "/Kamlesh05/KeepNote/static/css/main.377cfef7.chunk.css.map",
+    "static/js/2.be5d2f5d.chunk.js.LICENSE.txt": "/Kamlesh05/KeepNote/static/js/2.be5d2f5d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4576250e.js",
+    "static/css/2.d65fdcc0.chunk.css",
+    "static/js/2.be5d2f5d.chunk.js",
+    "static/css/main.377cfef7.chunk.css",
+    "static/js/main.832d32a3.chunk.js"
+  ]
+}
