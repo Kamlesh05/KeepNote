@@ -14,7 +14,7 @@ body {
   min-height: 100%;
 }
 
-.con {
+.conMain {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -77,8 +77,8 @@ body {
 }
 
 .note {
-  width: 50rem;
-  height: 19rem;
+  width: 40vw;
+  height: 18rem;
   padding: 1rem;
   border-radius: 1rem;
   font-size: 1.6rem;
@@ -118,8 +118,8 @@ body {
   background-color: #fafa5e;
 }
 
-input {
-  width: 45rem;
+.note input {
+  width: 90%;
   height: 5rem;
   border: none;
   word-spacing: 0.1rem;
@@ -128,11 +128,13 @@ input {
   font-weight: bold;
 }
 
-input:focus {
+.note input:focus {
   outline: none;
 }
 
-textarea {
+.note textarea {
+  width: 90%;
+  height: 8rem;
   border: none;
   padding: 1rem;
   word-spacing: 0.1rem;
@@ -141,8 +143,24 @@ textarea {
   padding-top: 0;
 }
 
-textarea:focus {
+.note textarea:focus {
   outline: none;
+}
+
+.noteContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .showNoteCon {
@@ -165,7 +183,7 @@ textarea:focus {
 }
 
 .showNote {
-  width: 35rem;
+  width: 23vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -184,7 +202,7 @@ textarea:focus {
 
 .showNote .note {
   width: 100%;
-  height: 21rem;
+  height: 20rem;
   padding: 1rem;
   border-radius: 1rem;
   font-size: 1.6rem;
@@ -194,7 +212,12 @@ textarea:focus {
 }
 
 .showNote input {
-  width: 30rem;
+  width: 90%;
+}
+
+.showNote textarea {
+  width: 90%;
+  height: 10rem;
 }
 
 .footer {
@@ -204,7 +227,22 @@ textarea:focus {
   font-size: 1rem;
 }
 
-@media (max-width: 755px) {
+@media (max-width: 1200px) {
+  .noteContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .showNoteCon {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -222,26 +260,26 @@ textarea:focus {
     padding: 0.4rem;
   }
   .note {
-    width: 35rem;
-    height: 20rem;
-  }
-  input {
-    width: 30rem;
-  }
-  img {
-    width: 70px;
-    height: auto;
-  }
-  .header h1 {
-    font-size: 2.8rem;
-  }
-  textArea {
-    width: 32rem;
-    height: 10rem;
+    width: 50vw;
   }
 }
 
-@media (min-width: 755px) and (max-width: 1525px) {
+@media (max-width: 992px) {
+  .noteContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .showNoteCon {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -258,9 +296,66 @@ textarea:focus {
             flex-direction: row;
     padding: 0.4rem;
   }
+  .note {
+    width: 60vw;
+  }
   .showNote {
-    width: 33rem;
-    margin-left: 15px;
+    width: 30vw;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .noteContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .showNoteCon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0.4rem;
+  }
+  .note {
+    width: 70vw;
+    height: 18rem;
+  }
+  .showNote {
+    width: 44vw;
+  }
+  .showNote .note {
+    width: 95%;
+    height: 20rem;
+  }
+  img {
+    width: 70px;
+    height: auto;
+  }
+  .header h1 {
+    font-size: 2.8rem;
   }
 }
 /*# sourceMappingURL=Index.css.map */

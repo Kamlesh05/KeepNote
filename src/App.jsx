@@ -33,7 +33,7 @@ const App = ()=>{
   return(
     <>
      <Header/>
-    <div className="con">
+    <div className="conMain">
       <Note getDataFromNote={getData}/>
       <div className="showNoteCon">
     {  data.map((val,index)=>{
@@ -49,3 +49,9 @@ const App = ()=>{
 }
 
 export default App;
+
+  //  1) header
+  //  2) ConMain > main > container > note
+  //  3) showNoteCon > showNote > div > note
+  //  4) Footer
+ 

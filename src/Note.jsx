@@ -42,12 +42,12 @@ const expandIt =()=>{
 
     return (
         <div className="main col-md-10 mx-auto">
-        <div>
+        <div className="noteContainer">
           <form className="note">
             { expand ?
-            <input name='title' value={note.title} onChange={fetch} type="text" placeholder="Title"  />
+            <input name='title' value={note.title} onChange={fetch} type="text" placeholder="Title" autoFocus={true}  />
             :null}
-            <textarea name='content' value={note.content} onChange={fetch} rows='4' cols='50' className="noteArea" placeholder="Take a Note ..." onClick={expandIt} />
+            <textarea name='content' value={note.content} onChange={fetch} className="noteArea" placeholder="Take a Note ..." onClick={expandIt} />
             {expand ?
             <Button className="btnAdd" onClick={addData}><AddBoxOutlinedIcon fontSize='large'/></Button>
             : null}
@@ -57,3 +57,5 @@ const expandIt =()=>{
       </div>
     )
 }
+
+//autofocus : true;
