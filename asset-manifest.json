@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/KeepNote/static/css/main.377cfef7.chunk.css",
-    "main.js": "/KeepNote/static/js/main.832d32a3.chunk.js",
-    "main.js.map": "/KeepNote/static/js/main.832d32a3.chunk.js.map",
+    "main.css": "/KeepNote/static/css/main.9f5332d1.chunk.css",
+    "main.js": "/KeepNote/static/js/main.7b2a52c0.chunk.js",
+    "main.js.map": "/KeepNote/static/js/main.7b2a52c0.chunk.js.map",
     "runtime-main.js": "/KeepNote/static/js/runtime-main.7f0a17da.js",
     "runtime-main.js.map": "/KeepNote/static/js/runtime-main.7f0a17da.js.map",
     "static/css/2.d65fdcc0.chunk.css": "/KeepNote/static/css/2.d65fdcc0.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.7aa6ea3b.chunk.js.map": "/KeepNote/static/js/3.7aa6ea3b.chunk.js.map",
     "index.html": "/KeepNote/index.html",
     "static/css/2.d65fdcc0.chunk.css.map": "/KeepNote/static/css/2.d65fdcc0.chunk.css.map",
-    "static/css/main.377cfef7.chunk.css.map": "/KeepNote/static/css/main.377cfef7.chunk.css.map",
+    "static/css/main.9f5332d1.chunk.css.map": "/KeepNote/static/css/main.9f5332d1.chunk.css.map",
     "static/js/2.be5d2f5d.chunk.js.LICENSE.txt": "/KeepNote/static/js/2.be5d2f5d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7f0a17da.js",
     "static/css/2.d65fdcc0.chunk.css",
     "static/js/2.be5d2f5d.chunk.js",
-    "static/css/main.377cfef7.chunk.css",
-    "static/js/main.832d32a3.chunk.js"
+    "static/css/main.9f5332d1.chunk.css",
+    "static/js/main.7b2a52c0.chunk.js"
   ]
 }
